@@ -1,0 +1,26 @@
+{
+  "name":              "xiaohuasheng/jaeger-php",
+  "description":       "php client for jaeger",
+  "keywords":          ["jaeger","trace","opentracing", "php5.3"],
+  "license":           "MIT",
+  "minimum-stability": "dev",
+  "require":           {
+    "php": ">=5.3.3",
+    "packaged/thrift" : "0.10.0",
+    "opentracing/opentracing" : "1.0.0-beta2"
+  },
+  "authors": [
+    {
+      "name": "xiaohuasheng",
+      "email": "775079852@qq.com"
+    }
+  ],
+  "autoload":          {
+    "psr-4": {
+      "Jaeger\\": "src\\Jaeger"
+    },
+    "files": [
+      "src/Jaeger/Constants.php"
+    ]
+  }
+}
